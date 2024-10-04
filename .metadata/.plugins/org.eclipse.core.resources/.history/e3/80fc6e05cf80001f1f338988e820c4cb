@@ -1,0 +1,12 @@
+package com.example.www;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+public class myController {
+
+	@RequestMapping("/")
+	public String display() 
+	{
+	@GetMapping("/fetch");
+	}
+	
+}

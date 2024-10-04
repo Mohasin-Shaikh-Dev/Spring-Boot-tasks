@@ -1,0 +1,20 @@
+package com.example.www.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.www.entity.Employee;
+import com.example.www.repository.EmployeeRepository;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+
+	@Autowired
+	EmployeeRepository employeeRepository;
+	
+	@Override
+	public Employee addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

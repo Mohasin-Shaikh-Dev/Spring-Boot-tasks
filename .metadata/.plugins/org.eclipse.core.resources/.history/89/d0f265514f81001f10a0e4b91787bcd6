@@ -1,0 +1,28 @@
+package com.example.www;
+import org.springframework.web.bind.annotation.RestController;
+@RestController    // to handle the HTTP method
+public class myController {
+
+	public String getRequest()
+	{
+		return "get HTTP method Called";
+	}
+	
+	
+	public String postRequest()
+	{
+		return "post HTTP method Called";
+	}
+	
+	public String putRequest()
+	{
+		return "put HTTP method Called";
+	}
+	
+	public String DeleteRequest()
+	{
+		return "Delete HTTP method Called";
+	}
+	
+	
+}

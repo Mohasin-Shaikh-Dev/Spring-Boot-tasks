@@ -1,0 +1,17 @@
+package com.example.www.service.impl;
+
+import java.util.List;
+
+import com.example.www.entity.Employee;
+
+public interface EmployeeService {
+
+	Employee addEmployee(Employee employee);
+
+	List<Employee> getEmployee();
+
+	Employee getEmployeeById(int id);
+
+	Employee deleteEmployeeById(int id);
+
+}
