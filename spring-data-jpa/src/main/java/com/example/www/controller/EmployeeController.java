@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.www.entity.Employee;
 import com.example.www.service.impl.EmployeeService;
 
+
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
@@ -47,7 +48,5 @@ public class EmployeeController {
 	{
 		return employeeService.updateEmployee(id,employee);
 	}
-	
-	
-	
+		
 }
