@@ -1,5 +1,0 @@
-package com.example.www.service.impl;
-
-public interface EmployeeService {
-
-}

@@ -1,5 +1,0 @@
-package com.example.www.service.impl;
-
-public class EmployeeRepositoryImpl implements EmployeeService {
-
-}

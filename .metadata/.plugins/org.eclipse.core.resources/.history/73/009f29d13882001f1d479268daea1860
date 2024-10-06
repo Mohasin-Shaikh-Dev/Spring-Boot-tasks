@@ -1,9 +1,0 @@
-package com.example.www.service.impl;
-
-import com.example.www.entity.Employee;
-
-public interface EmployeeService {
-
-	Employee addEmployee(Employee employee);
-
-}
